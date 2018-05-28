@@ -10,7 +10,7 @@ import random
 from tornado.options import define, options
 define("port", default=8000, help="run on the given port", type=int)
 
-API_KEY = 'AIzaSyDrb9eBfrWjAk8O2b-zmw0-9BH3NSnXCWw'
+API_KEY = ''
 CHANNEL_INFO_URL_TEMPLATE = 'https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id={}&key={}'
 PLAYLIST_URL_TEMPLATE = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={}&key={}'
 YOUTUBE_BASE_URL = 'https://www.youtube.com/watch?'
